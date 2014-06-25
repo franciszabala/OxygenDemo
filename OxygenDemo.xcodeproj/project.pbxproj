@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7847BB2319587D4700A90319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847BB2219587D4700A90319 /* Foundation.framework */; };
+		7847BB2519587D4700A90319 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847BB2419587D4700A90319 /* CoreGraphics.framework */; };
+		7847BB2719587D4700A90319 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847BB2619587D4700A90319 /* UIKit.framework */; };
+		7847BB2D19587D4700A90319 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7847BB2B19587D4700A90319 /* InfoPlist.strings */; };
+		7847BB2F19587D4700A90319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB2E19587D4700A90319 /* main.m */; };
+		7847BB3319587D4700A90319 /* ODAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB3219587D4700A90319 /* ODAppDelegate.m */; };
+		7847BB3619587D4700A90319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7847BB3419587D4700A90319 /* Main.storyboard */; };
+		7847BB3919587D4700A90319 /* ODViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB3819587D4700A90319 /* ODViewController.m */; };
+		7847BB3B19587D4700A90319 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7847BB3A19587D4700A90319 /* Images.xcassets */; };
+		7847BB4219587D4700A90319 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847BB4119587D4700A90319 /* XCTest.framework */; };
+		7847BB4319587D4700A90319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847BB2219587D4700A90319 /* Foundation.framework */; };
+		7847BB4419587D4700A90319 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847BB2619587D4700A90319 /* UIKit.framework */; };
+		7847BB4C19587D4700A90319 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7847BB4A19587D4700A90319 /* InfoPlist.strings */; };
+		7847BB4E19587D4700A90319 /* OxygenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB4D19587D4700A90319 /* OxygenDemoTests.m */; };
+		7847BB5A19587F4300A90319 /* ODReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB5919587F4300A90319 /* ODReceiver.m */; };
+		7847BB5E195883A500A90319 /* ODContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB5D195883A500A90319 /* ODContact.m */; };
+		7847BB641959EC3F00A90319 /* ODFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB631959EC3F00A90319 /* ODFacade.m */; };
+		7847BB6A195A6E1200A90319 /* ODDBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB69195A6E1200A90319 /* ODDBConnection.m */; };
+		7847BB6D195A701D00A90319 /* ODStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB6C195A701D00A90319 /* ODStatement.m */; };
+		7847BB70195A759200A90319 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847BB6E195A759200A90319 /* libsqlite3.0.dylib */; };
+		7847BB71195A759200A90319 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7847BB6F195A759200A90319 /* libsqlite3.dylib */; };
+		7847BB73195A79E000A90319 /* oxydemo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7847BB72195A788100A90319 /* oxydemo.sqlite */; };
+		7847BB76195A7D0600A90319 /* ODDbUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847BB75195A7D0600A90319 /* ODDbUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7847BB4519587D4700A90319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7847BB1719587D4700A90319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7847BB1E19587D4700A90319;
+			remoteInfo = OxygenDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7847BB1F19587D4700A90319 /* OxygenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OxygenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7847BB2219587D4700A90319 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7847BB2419587D4700A90319 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7847BB2619587D4700A90319 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7847BB2A19587D4700A90319 /* OxygenDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OxygenDemo-Info.plist"; sourceTree = "<group>"; };
+		7847BB2C19587D4700A90319 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7847BB2E19587D4700A90319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7847BB3019587D4700A90319 /* OxygenDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OxygenDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7847BB3119587D4700A90319 /* ODAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODAppDelegate.h; sourceTree = "<group>"; };
+		7847BB3219587D4700A90319 /* ODAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODAppDelegate.m; sourceTree = "<group>"; };
+		7847BB3519587D4700A90319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7847BB3719587D4700A90319 /* ODViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODViewController.h; sourceTree = "<group>"; };
+		7847BB3819587D4700A90319 /* ODViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODViewController.m; sourceTree = "<group>"; };
+		7847BB3A19587D4700A90319 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7847BB4019587D4700A90319 /* OxygenDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OxygenDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7847BB4119587D4700A90319 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7847BB4919587D4700A90319 /* OxygenDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OxygenDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7847BB4B19587D4700A90319 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7847BB4D19587D4700A90319 /* OxygenDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OxygenDemoTests.m; sourceTree = "<group>"; };
+		7847BB5819587F4300A90319 /* ODReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODReceiver.h; path = Components/ODReceiver.h; sourceTree = "<group>"; };
+		7847BB5919587F4300A90319 /* ODReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODReceiver.m; path = Components/ODReceiver.m; sourceTree = "<group>"; };
+		7847BB5C195883A500A90319 /* ODContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODContact.h; sourceTree = "<group>"; };
+		7847BB5D195883A500A90319 /* ODContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODContact.m; sourceTree = "<group>"; };
+		7847BB5F1959EBBE00A90319 /* ODReceiverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODReceiverDelegate.h; path = Components/ODReceiverDelegate.h; sourceTree = "<group>"; };
+		7847BB621959EC3F00A90319 /* ODFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODFacade.h; sourceTree = "<group>"; };
+		7847BB631959EC3F00A90319 /* ODFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODFacade.m; sourceTree = "<group>"; };
+		7847BB651959EC7D00A90319 /* ODFacadeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODFacadeDelegate.h; sourceTree = "<group>"; };
+		7847BB68195A6E1200A90319 /* ODDBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODDBConnection.h; sourceTree = "<group>"; };
+		7847BB69195A6E1200A90319 /* ODDBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODDBConnection.m; sourceTree = "<group>"; };
+		7847BB6B195A701D00A90319 /* ODStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODStatement.h; sourceTree = "<group>"; };
+		7847BB6C195A701D00A90319 /* ODStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODStatement.m; sourceTree = "<group>"; };
+		7847BB6E195A759200A90319 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		7847BB6F195A759200A90319 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7847BB72195A788100A90319 /* oxydemo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = oxydemo.sqlite; sourceTree = "<group>"; };
+		7847BB74195A7D0600A90319 /* ODDbUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODDbUtil.h; sourceTree = "<group>"; };
+		7847BB75195A7D0600A90319 /* ODDbUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODDbUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7847BB1C19587D4700A90319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7847BB70195A759200A90319 /* libsqlite3.0.dylib in Frameworks */,
+				7847BB71195A759200A90319 /* libsqlite3.dylib in Frameworks */,
+				7847BB2519587D4700A90319 /* CoreGraphics.framework in Frameworks */,
+				7847BB2719587D4700A90319 /* UIKit.framework in Frameworks */,
+				7847BB2319587D4700A90319 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7847BB3D19587D4700A90319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7847BB4219587D4700A90319 /* XCTest.framework in Frameworks */,
+				7847BB4419587D4700A90319 /* UIKit.framework in Frameworks */,
+				7847BB4319587D4700A90319 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7847BB1619587D4700A90319 = {
+			isa = PBXGroup;
+			children = (
+				7847BB2819587D4700A90319 /* OxygenDemo */,
+				7847BB4719587D4700A90319 /* OxygenDemoTests */,
+				7847BB2119587D4700A90319 /* Frameworks */,
+				7847BB2019587D4700A90319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7847BB2019587D4700A90319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7847BB1F19587D4700A90319 /* OxygenDemo.app */,
+				7847BB4019587D4700A90319 /* OxygenDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7847BB2119587D4700A90319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7847BB6E195A759200A90319 /* libsqlite3.0.dylib */,
+				7847BB6F195A759200A90319 /* libsqlite3.dylib */,
+				7847BB2219587D4700A90319 /* Foundation.framework */,
+				7847BB2419587D4700A90319 /* CoreGraphics.framework */,
+				7847BB2619587D4700A90319 /* UIKit.framework */,
+				7847BB4119587D4700A90319 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7847BB2819587D4700A90319 /* OxygenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7847BB651959EC7D00A90319 /* ODFacadeDelegate.h */,
+				7847BB621959EC3F00A90319 /* ODFacade.h */,
+				7847BB631959EC3F00A90319 /* ODFacade.m */,
+				7847BB5B1958838C00A90319 /* Model */,
+				7847BB5719587F0C00A90319 /* Components */,
+				7847BB3119587D4700A90319 /* ODAppDelegate.h */,
+				7847BB3219587D4700A90319 /* ODAppDelegate.m */,
+				7847BB3419587D4700A90319 /* Main.storyboard */,
+				7847BB3719587D4700A90319 /* ODViewController.h */,
+				7847BB3819587D4700A90319 /* ODViewController.m */,
+				7847BB3A19587D4700A90319 /* Images.xcassets */,
+				7847BB2919587D4700A90319 /* Supporting Files */,
+			);
+			path = OxygenDemo;
+			sourceTree = "<group>";
+		};
+		7847BB2919587D4700A90319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7847BB72195A788100A90319 /* oxydemo.sqlite */,
+				7847BB2A19587D4700A90319 /* OxygenDemo-Info.plist */,
+				7847BB2B19587D4700A90319 /* InfoPlist.strings */,
+				7847BB2E19587D4700A90319 /* main.m */,
+				7847BB3019587D4700A90319 /* OxygenDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7847BB4719587D4700A90319 /* OxygenDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7847BB4D19587D4700A90319 /* OxygenDemoTests.m */,
+				7847BB4819587D4700A90319 /* Supporting Files */,
+			);
+			path = OxygenDemoTests;
+			sourceTree = "<group>";
+		};
+		7847BB4819587D4700A90319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7847BB4919587D4700A90319 /* OxygenDemoTests-Info.plist */,
+				7847BB4A19587D4700A90319 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7847BB5719587F0C00A90319 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7847BB5F1959EBBE00A90319 /* ODReceiverDelegate.h */,
+				7847BB5819587F4300A90319 /* ODReceiver.h */,
+				7847BB5919587F4300A90319 /* ODReceiver.m */,
+				7847BB68195A6E1200A90319 /* ODDBConnection.h */,
+				7847BB69195A6E1200A90319 /* ODDBConnection.m */,
+				7847BB6B195A701D00A90319 /* ODStatement.h */,
+				7847BB6C195A701D00A90319 /* ODStatement.m */,
+				7847BB74195A7D0600A90319 /* ODDbUtil.h */,
+				7847BB75195A7D0600A90319 /* ODDbUtil.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		7847BB5B1958838C00A90319 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7847BB5C195883A500A90319 /* ODContact.h */,
+				7847BB5D195883A500A90319 /* ODContact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7847BB1E19587D4700A90319 /* OxygenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7847BB5119587D4700A90319 /* Build configuration list for PBXNativeTarget "OxygenDemo" */;
+			buildPhases = (
+				7847BB1B19587D4700A90319 /* Sources */,
+				7847BB1C19587D4700A90319 /* Frameworks */,
+				7847BB1D19587D4700A90319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OxygenDemo;
+			productName = OxygenDemo;
+			productReference = 7847BB1F19587D4700A90319 /* OxygenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7847BB3F19587D4700A90319 /* OxygenDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7847BB5419587D4700A90319 /* Build configuration list for PBXNativeTarget "OxygenDemoTests" */;
+			buildPhases = (
+				7847BB3C19587D4700A90319 /* Sources */,
+				7847BB3D19587D4700A90319 /* Frameworks */,
+				7847BB3E19587D4700A90319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7847BB4619587D4700A90319 /* PBXTargetDependency */,
+			);
+			name = OxygenDemoTests;
+			productName = OxygenDemoTests;
+			productReference = 7847BB4019587D4700A90319 /* OxygenDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7847BB1719587D4700A90319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Francis Zabala";
+				TargetAttributes = {
+					7847BB3F19587D4700A90319 = {
+						TestTargetID = 7847BB1E19587D4700A90319;
+					};
+				};
+			};
+			buildConfigurationList = 7847BB1A19587D4700A90319 /* Build configuration list for PBXProject "OxygenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7847BB1619587D4700A90319;
+			productRefGroup = 7847BB2019587D4700A90319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7847BB1E19587D4700A90319 /* OxygenDemo */,
+				7847BB3F19587D4700A90319 /* OxygenDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7847BB1D19587D4700A90319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7847BB73195A79E000A90319 /* oxydemo.sqlite in Resources */,
+				7847BB3B19587D4700A90319 /* Images.xcassets in Resources */,
+				7847BB2D19587D4700A90319 /* InfoPlist.strings in Resources */,
+				7847BB3619587D4700A90319 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7847BB3E19587D4700A90319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7847BB4C19587D4700A90319 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7847BB1B19587D4700A90319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7847BB76195A7D0600A90319 /* ODDbUtil.m in Sources */,
+				7847BB6D195A701D00A90319 /* ODStatement.m in Sources */,
+				7847BB5E195883A500A90319 /* ODContact.m in Sources */,
+				7847BB2F19587D4700A90319 /* main.m in Sources */,
+				7847BB641959EC3F00A90319 /* ODFacade.m in Sources */,
+				7847BB3319587D4700A90319 /* ODAppDelegate.m in Sources */,
+				7847BB3919587D4700A90319 /* ODViewController.m in Sources */,
+				7847BB6A195A6E1200A90319 /* ODDBConnection.m in Sources */,
+				7847BB5A19587F4300A90319 /* ODReceiver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7847BB3C19587D4700A90319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7847BB4E19587D4700A90319 /* OxygenDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7847BB4619587D4700A90319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7847BB1E19587D4700A90319 /* OxygenDemo */;
+			targetProxy = 7847BB4519587D4700A90319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7847BB2B19587D4700A90319 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7847BB2C19587D4700A90319 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7847BB3419587D4700A90319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7847BB3519587D4700A90319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7847BB4A19587D4700A90319 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7847BB4B19587D4700A90319 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7847BB4F19587D4700A90319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7847BB5019587D4700A90319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7847BB5219587D4700A90319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OxygenDemo/OxygenDemo-Prefix.pch";
+				INFOPLIST_FILE = "OxygenDemo/OxygenDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7847BB5319587D4700A90319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OxygenDemo/OxygenDemo-Prefix.pch";
+				INFOPLIST_FILE = "OxygenDemo/OxygenDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7847BB5519587D4700A90319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OxygenDemo.app/OxygenDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OxygenDemo/OxygenDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OxygenDemoTests/OxygenDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7847BB5619587D4700A90319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OxygenDemo.app/OxygenDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OxygenDemo/OxygenDemo-Prefix.pch";
+				INFOPLIST_FILE = "OxygenDemoTests/OxygenDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7847BB1A19587D4700A90319 /* Build configuration list for PBXProject "OxygenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7847BB4F19587D4700A90319 /* Debug */,
+				7847BB5019587D4700A90319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7847BB5119587D4700A90319 /* Build configuration list for PBXNativeTarget "OxygenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7847BB5219587D4700A90319 /* Debug */,
+				7847BB5319587D4700A90319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7847BB5419587D4700A90319 /* Build configuration list for PBXNativeTarget "OxygenDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7847BB5519587D4700A90319 /* Debug */,
+				7847BB5619587D4700A90319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7847BB1719587D4700A90319 /* Project object */;
+}
